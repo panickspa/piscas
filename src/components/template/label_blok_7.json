@@ -1,0 +1,13 @@
+[
+    {
+        "id_label":263,
+        "label": "1",
+        "nama": "Kumuh",
+        "id_rincian":100
+    },{
+        "id_label":264,
+        "label": "2",
+        "nama": "Tidak Kumuh",
+        "id_rincian":100
+    }
+]

@@ -1,0 +1,58 @@
+[
+    {
+        "id_label":252,
+        "label": "1",
+        "nama": "Pekarangan",
+        "id_rincian":63
+    },{
+        "id_label":253,
+        "label": "2",
+        "nama": "Sawah Irigasi",
+        "id_rincian":64
+    },{
+        "id_label":254,
+        "label": "3",
+        "nama": "Sawah Tadah Hujan",
+        "id_rincian":64
+    },{
+        "id_label":255,
+        "label": "4",
+        "nama": "Tegalan",
+        "id_rincian":64
+    },{
+        "id_label":256,
+        "label": "5",
+        "nama": "Kolam",
+        "id_rincian":64
+    },{
+        "id_label":257,
+        "label": "5",
+        "nama": "Kolam",
+        "id_rincian":64
+    },{
+        "id_label":258,
+        "label": "1",
+        "nama": "Ada SPPT",
+        "id_rincian":65
+    },{
+        "id_label":259,
+        "label": "2",
+        "nama": "Tidak Ada SPPT",
+        "id_rincian":65
+    },{
+        "id_label":260,
+        "label": "1",
+        "nama": "SHM",
+        "id_rincian":68
+    },{
+        "id_label":261,
+        "label": "2",
+        "nama": "HGB",
+        "id_rincian":68
+    },{
+        "id_label":262,
+        "label": "3",
+        "nama": "Tidak Bersertifikat",
+        "id_rincian":68
+    }
+]

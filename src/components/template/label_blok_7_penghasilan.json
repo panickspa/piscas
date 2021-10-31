@@ -1,0 +1,278 @@
+[
+    {
+       "id_label": 265,
+       "label": "1",
+       "nama": "Padi",
+       "id_rincian": 101
+    },
+    {
+       "id_label": 266,
+       "label": "2",
+       "nama": "Palawija",
+       "id_rincian": 101
+    },
+    {
+       "id_label": 267,
+       "label": "3",
+       "nama": "Hortikultura",
+       "id_rincian": 101
+    },
+    {
+       "id_label": 268,
+       "label": "4",
+       "nama": "Karet",
+       "id_rincian": 101
+    },
+    {
+       "id_label": 269,
+       "label": "5",
+       "nama": "Kelapa Sawit",
+       "id_rincian": 101
+    },
+    {
+       "id_label": 270,
+       "label": "6",
+       "nama": "Kopi",
+       "id_rincian": 101
+    },
+    {
+       "id_label": 271,
+       "label": "7",
+       "nama": "Kakao",
+       "id_rincian": 101
+    },
+    {
+       "id_label": 272,
+       "label": "8",
+       "nama": "Kelapa",
+       "id_rincian": 101
+    },
+    {
+       "id_label": 273,
+       "label": "9",
+       "nama": "Lada",
+       "id_rincian": 101
+    },
+    {
+       "id_label": 274,
+       "label": "10",
+       "nama": "Cengkeh",
+       "id_rincian": 101
+    },
+    {
+       "id_label": 275,
+       "label": "11",
+       "nama": "Tembakau",
+       "id_rincian": 101
+    },
+    {
+       "id_label": 276,
+       "label": "12",
+       "nama": "Tebu",
+       "id_rincian": 101
+    },
+    {
+       "id_label": 277,
+       "label": "13",
+       "nama": "Sapi potong",
+       "id_rincian": 101
+    },
+    {
+       "id_label": 278,
+       "label": "14",
+       "nama": "Susu sapi",
+       "id_rincian": 101
+    },
+    {
+       "id_label": 279,
+       "label": "15",
+       "nama": "Domba",
+       "id_rincian": 101
+    },
+    {
+       "id_label": 280,
+       "label": "16",
+       "nama": "Ternak besar lainnya",
+       "id_rincian": 101
+    },
+    {
+       "id_label": 281,
+       "label": "17",
+       "nama": "Ayam pedaging",
+       "id_rincian": 101
+    },
+    {
+       "id_label": 282,
+       "label": "18",
+       "nama": "Telur Ayam",
+       "id_rincian": 101
+    },
+    {
+       "id_label": 283,
+       "label": "19",
+       "nama": "Ternak kecil lainnya",
+       "id_rincian": 101
+    },
+    {
+       "id_label": 284,
+       "label": "20",
+       "nama": "Perikanan tangkap",
+       "id_rincian": 101
+    },
+    {
+       "id_label": 285,
+       "label": "21",
+       "nama": "Perikanan budidaya",
+       "id_rincian": 101
+    },
+    {
+       "id_label": 286,
+       "label": "22",
+       "nama": "Bambu",
+       "id_rincian": 101
+    },
+    {
+       "id_label": 287,
+       "label": "23",
+       "nama": "Budidaya tanaman kehutanan",
+       "id_rincian": 101
+    },
+    {
+       "id_label": 288,
+       "label": "24",
+       "nama": "Pemungutan hasil hutan",
+       "id_rincian": 101
+    },
+    {
+       "id_label": 289,
+       "label": "25",
+       "nama": "Penangkapan satwa liar",
+       "id_rincian": 101
+    },
+    {
+       "id_label": 290,
+       "label": "26",
+       "nama": "Penangkaran Satwa Liar",
+       "id_rincian": 101
+    },
+    {
+       "id_label": 291,
+       "label": "27",
+       "nama": "Jasa pertanian",
+       "id_rincian": 101
+    },
+    {
+       "id_label": 292,
+       "label": "28",
+       "nama": "Pertambangan dan Penggalian",
+       "id_rincian": 101
+    },
+    {
+       "id_label": 293,
+       "label": "29",
+       "nama": "Industri kerajinan",
+       "id_rincian": 101
+    },
+    {
+       "id_label": 294,
+       "label": "30",
+       "nama": "Industri pengolahan",
+       "id_rincian": 101
+    },
+    {
+       "id_label": 295,
+       "label": "31",
+       "nama": "Perdagangan",
+       "id_rincian": 101
+    },
+    {
+       "id_label": 296,
+       "label": "32",
+       "nama": "Warung dan rumah makan",
+       "id_rincian": 101
+    },
+    {
+       "id_label": 297,
+       "label": "33",
+       "nama": "Angkutan",
+       "id_rincian": 101
+    },
+    {
+       "id_label": 298,
+       "label": "34",
+       "nama": "Pergudangan",
+       "id_rincian": 101
+    },
+    {
+       "id_label": 299,
+       "label": "35",
+       "nama": "Komunikasi",
+       "id_rincian": 101
+    },
+    {
+       "id_label": 300,
+       "label": "36",
+       "nama": "Jasa di luar pertanian",
+       "id_rincian": 101
+    },
+    {
+       "id_label": 301,
+       "label": "37",
+       "nama": "Karyawan tetap",
+       "id_rincian": 101
+    },
+    {
+       "id_label": 302,
+       "label": "38",
+       "nama": "Karyawan tidak tetap",
+       "id_rincian": 101
+    },
+    {
+       "id_label": 303,
+       "label": "39",
+       "nama": "TNI",
+       "id_rincian": 101
+    },
+    {
+       "id_label": 304,
+       "label": "40",
+       "nama": "PNS",
+       "id_rincian": 101
+    },
+    {
+       "id_label": 305,
+       "label": "41",
+       "nama": "TKI di luar negeri",
+       "id_rincian": 101
+    },
+    {
+       "id_label": 306,
+       "label": "42",
+       "nama": "Sumbangan",
+       "id_rincian": 101
+    },
+    {
+       "id_label": 307,
+       "label": "43",
+       "nama": "Lainnya",
+       "id_rincian": 101
+    },
+    {
+       "id_label": 308,
+       "label": "1",
+       "nama": "Semua",
+       "id_rincian": 106
+    },
+    {
+       "id_label": 309,
+       "label": "2",
+       "nama": "Sebagian",
+       "id_rincian": 106
+    },
+    {
+       "id_label": 310,
+       "label": "3",
+       "nama": "Tidak",
+       "id_rincian": 106
+    }
+ ]

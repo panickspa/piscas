@@ -1,0 +1,753 @@
+[
+    {
+    "id_label":102,
+    "label": "1",
+    "nama": "Kepala Keluarga",
+    "id_rincian":39
+},{
+    "id_label":103,
+    "label": "2",
+    "nama": "Istri/Suami",
+    "id_rincian":39
+},{
+    "id_label":104,
+    "label":"3",
+    "nama":"Anak",
+    "id_rincian":39
+},{
+    "id_label":105,
+    "label": "4",
+    "nama": "Menantu",
+    "id_rincian":39
+},{
+    "id_label":106,
+    "label": "5",
+    "nama": "Cucu",
+    "id_rincian":39
+},{
+    "id_label":107,
+    "label": "6",
+    "nama": "Orang Tua/Mertua",
+    "id_rincian":39
+},{
+    "id_label":108,
+    "label": "7",
+    "nama": "Pembantu ruta",
+    "id_rincian":39
+},{
+    "id_label":109,
+    "label": "8",
+    "nama": "Lainnya",
+    "id_rincian":39
+},{
+    "id_label":110,
+    "label": "1",
+    "nama": "Laki-laki",
+    "id_rincian":40
+},{
+    "id_label":111,
+    "label": "2",
+    "nama": "Perempuan",
+    "id_rincian":40
+},{
+    "id_label":112,
+    "label": "1",
+    "nama": "Belum Kawin",
+    "id_rincian":42
+},{
+    "id_label":113,
+    "label": "2",
+    "nama": "Kawin/Nikah",
+    "id_rincian":42
+},{
+    "id_label":114,
+    "label": "3",
+    "nama": "Cerai Hidup",
+    "id_rincian":42
+},{
+    "id_label":115,
+    "label": "4",
+    "nama": "Cerai Mati",
+    "id_rincian":42
+},{
+    "id_label":116,
+    "label": "0",
+    "nama": "Tidak",
+    "id_rincian":43
+},{
+    "id_label":117,
+    "label": "1",
+    "nama": "Ya, dapat ditunjukkan",
+    "id_rincian":43
+},{
+    "id_label":118,
+    "label": "2",
+    "nama": "Ya, tidak dapat ditunjukkan",
+    "id_rincian":43
+},{
+    "id_label":119,
+    "label": "0",
+    "nama": "Tidak memiliki",
+    "id_rincian":45
+},{
+    "id_label":120,
+    "label": "1",
+    "nama": "Akta Kelahiran",
+    "id_rincian":45
+},{
+    "id_label":121,
+    "label": "2",
+    "nama": "Kartu Pelajar",
+    "id_rincian":45
+},{
+    "id_label":122,
+    "label": "3",
+    "nama": "KTP",
+    "id_rincian":45
+},{
+    "id_label":123,
+    "label": "8",
+    "nama": "SIM",
+    "id_rincian":45
+},{
+    "id_label":124,
+    "label": "1",
+    "nama": "MOW/Tubektomi",
+    "id_rincian":47
+},{
+    "id_label":125,
+    "label": "2",
+    "nama": "MOP/Vasektomi",
+    "id_rincian":47
+},{
+    "id_label":126,
+    "label": "3",
+    "nama": "AKDR/IUD/Spiral",
+    "id_rincian":47
+},{
+    "id_label":127,
+    "label": "4",
+    "nama": "Suntikan KB",
+    "id_rincian":47
+},{
+    "id_label":128,
+    "label": "5",
+    "nama": "Susuk KB/Norplan/Implanon/Alwalit",
+    "id_rincian":47
+},{
+    "id_label":129,
+    "label": "6",
+    "nama": "Pil KB",
+    "id_rincian":47
+},{
+    "id_label":130,
+    "label": "7",
+    "nama": "Kondom/Karet KB",
+    "id_rincian":47
+},{
+    "id_label":131,
+    "label": "8",
+    "nama": "Intravag/Tisue/Kondom Wanita",
+    "id_rincian":47
+},{
+    "id_label":132,
+    "label": "9",
+    "nama": "Cara Tradisional",
+    "id_rincian":47
+},{
+    "id_label":133,
+    "label": "0",
+    "nama": "Tidak KB",
+    "id_rincian":47
+},{
+    "id_label":134,
+    "label": "00",
+    "nama": "Tidak Cacat",
+    "id_rincian":48
+},{
+    "id_label":135,
+    "label": "01",
+    "nama": "Tuna Daksa/cacat tubuh",
+    "id_rincian":48
+},{
+    "id_label":136,
+    "label": "02",
+    "nama": "Tuna Netra/buta",
+    "id_rincian":48
+},{
+    "id_label":137,
+    "label": "03",
+    "nama": "Tuna Rungu",
+    "id_rincian":48
+},{
+    "id_label":138,
+    "label": "04",
+    "nama": "Tuna Wicara",
+    "id_rincian":48
+},{
+    "id_label":139,
+    "label": "05",
+    "nama": "Tuna rungu & wicara",
+    "id_rincian":48
+},{
+    "id_label":140,
+    "label": "06",
+    "nama": "Tuna netra & cacat tubuh",
+    "id_rincian":48
+},{
+    "id_label":141,
+    "label": "07",
+    "nama": "Tuna netra, rungu & wicara",
+    "id_rincian":48
+},{
+    "id_label":142,
+    "label": "08",
+    "nama": "Tuna rungu, wicara & cacat tubuh",
+    "id_rincian":48
+},{
+    "id_label":143,
+    "label": "09",
+    "nama": "Tuna rungu, wicara, netra & cacat tubuh",
+    "id_rincian":48
+},{
+    "id_label":144,
+    "label": "10",
+    "nama": "Cacat mental retardasi",
+    "id_rincian":48
+},{
+    "id_label":145,
+    "label": "11",
+    "nama": "Mantan penderita gangguan jiwa",
+    "id_rincian":48
+},{
+    "id_label":146,
+    "label": "12",
+    "nama": "Cacat fisik & mental",
+    "id_rincian":48
+},{
+    "id_label":147,
+    "label": "0",
+    "nama": "Tidak Ada",
+    "id_rincian":49
+},{
+    "id_label":148,
+    "label": "1",
+    "nama": "Hipertensi (Tekanan darah tinggi)",
+    "id_rincian":49
+},{
+    "id_label":149,
+    "label": "2",
+    "nama": "Rematik",
+    "id_rincian":49
+},{
+    "id_label":150,
+    "label": "3",
+    "nama": "Asma",
+    "id_rincian":49
+},{
+    "id_label":151,
+    "label": "4",
+    "nama": "Masalah Jantung",
+    "id_rincian":49
+},{
+    "id_label":152,
+    "label": "5",
+    "nama": "Diabetes (Kencing Manis)",
+    "id_rincian":49
+},{
+    "id_label":153,
+    "label": "6",
+    "nama": "Tubercolosis (TBC)",
+    "id_rincian":49
+},{
+    "id_label":154,
+    "label": "7",
+    "nama": "Stroke",
+    "id_rincian":49
+},{
+    "id_label":155,
+    "label": "8",
+    "nama": "Kanker atau tumor ganas",
+    "id_rincian":49
+},{
+    "id_label":156,
+    "label": "9",
+    "nama": "Lainnya (gagal ginjal, paru-paru flek, dan sejenisnya)",
+    "id_rincian":49
+},{
+    "id_label":157,
+    "label": "1",
+    "nama": "A",
+    "id_rincian":50
+},{
+    "id_label":158,
+    "label": "2",
+    "nama": "B",
+    "id_rincian":50
+},{
+    "id_label":159,
+    "label": "3",
+    "nama": "AB",
+    "id_rincian":50
+},{
+    "id_label":160,
+    "label": "4",
+    "nama": "O",
+    "id_rincian":50
+},{
+    "id_label":161,
+    "label": "5",
+    "nama": "Tidak Tahu",
+    "id_rincian":50
+},{
+    "id_label":162,
+    "label": "0",
+    "nama": "Tidak/Belum Pernah sekolah",
+    "id_rincian":51
+},{
+    "id_label":163,
+    "label": "1",
+    "nama": "Masih Sekolah",
+    "id_rincian":51
+},{
+    "id_label":164,
+    "label": "2",
+    "nama": "Tidak Bersekolah Lagi",
+    "id_rincian":51
+},{
+    "id_label":165,
+    "label": "01",
+    "nama": "SD/SDLB",
+    "id_rincian":52
+},{
+    "id_label":166,
+    "label": "02",
+    "nama": "Paket A",
+    "id_rincian":52
+},{
+    "id_label":167,
+    "label": "03",
+    "nama": "MI (Madrasah Ibtidaiyah)",
+    "id_rincian":52
+},{
+    "id_label":168,
+    "label": "04",
+    "nama": "SMP/SMPLB",
+    "id_rincian":52
+},{
+    "id_label":169,
+    "label": "05",
+    "nama": "Paket B",
+    "id_rincian":52
+},{
+    "id_label":170,
+    "label": "06",
+    "nama": "MTs (Madrasah Tsanawiyah)",
+    "id_rincian":52
+},{
+    "id_label":171,
+    "label": "07",
+    "nama": "SMA/SMK/SMALB",
+    "id_rincian":52
+},{
+    "id_label":172,
+    "label": "08",
+    "nama": "Paket C",
+    "id_rincian":52
+},{
+    "id_label":173,
+    "label": "09",
+    "nama": "MA (Madrasah Aliyah)",
+    "id_rincian":52
+},{
+    "id_label":174,
+    "label": "10",
+    "nama": "Perguruan Tinggi",
+    "id_rincian":52
+},{
+    "id_label":175,
+    "label": "0",
+    "nama": "Tidak Punya Ijazah",
+    "id_rincian":54
+},{
+    "id_label":176,
+    "label": "1",
+    "nama": "SD/sederajat",
+    "id_rincian":54
+},{
+    "id_label":177,
+    "label": "2",
+    "nama": "SMP/sederajat",
+    "id_rincian":54
+},{
+    "id_label":178,
+    "label": "3",
+    "nama": "SMA/sederajat",
+    "id_rincian":54
+},{
+    "id_label":179,
+    "label": "4",
+    "nama": "D1/D2/D3",
+    "id_rincian":54
+},{
+    "id_label":180,
+    "label": "5",
+    "nama": "D4/S1",
+    "id_rincian":54
+},{
+    "id_label":181,
+    "label": "6",
+    "nama": "S2/S3",
+    "id_rincian":54
+},{
+    "id_label":182,
+    "label": "1",
+    "nama": "Pertanian tanaman padi & palawija",
+    "id_rincian":57
+},{
+    "id_label":183,
+    "label": "2",
+    "nama": "Hortikultura",
+    "id_rincian":57
+},{
+    "id_label":184,
+    "label": "3",
+    "nama": "Perkebunan",
+    "id_rincian":57
+},{
+    "id_label":185,
+    "label": "4",
+    "nama": "Perikanan lengkap",
+    "id_rincian":57
+},{
+    "id_label":186,
+    "label": "5",
+    "nama": "Perikanan budidaya",
+    "id_rincian":57
+},{
+    "id_label":187,
+    "label": "6",
+    "nama": "Peternakan",
+    "id_rincian":57
+},{
+    "id_label":188,
+    "label": "7",
+    "nama": "Kehutanan & pertanian lainnya",
+    "id_rincian":57
+},{
+    "id_label":189,
+    "label": "8",
+    "nama": "Pertambangan/penggalian",
+    "id_rincian":57
+},{
+    "id_label":190,
+    "label": "9",
+    "nama": "Industri pengolahan",
+    "id_rincian":57
+},{
+    "id_label":191,
+    "label": "10",
+    "nama": "Listrik dan Gas",
+    "id_rincian":57
+},{
+    "id_label":192,
+    "label": "11",
+    "nama": "Bangunan/konstruksi",
+    "id_rincian":57
+},{
+    "id_label":193,
+    "label": "12",
+    "nama": "Perdagangan",
+    "id_rincian":57
+},{
+    "id_label":194,
+    "label": "13",
+    "nama": "Hotel & Rumah Makan",
+    "id_rincian":57
+},{
+    "id_label":197,
+    "label": "14",
+    "nama": "Transportasi & pergudangan",
+    "id_rincian":57
+},{
+    "id_label":198,
+    "label": "15",
+    "nama": "Informasi & komunikasi",
+    "id_rincian":57
+},{
+    "id_label":199,
+    "label": "16",
+    "nama": "Keuangan & asuransi",
+    "id_rincian":57
+},{
+    "id_label":200,
+    "label": "17",
+    "nama": "Jasa pendidikan",
+    "id_rincian":57
+},{
+    "id_label":201,
+    "label": "18",
+    "nama": "Jasa Kesehatan",
+    "id_rincian":57
+},{
+    "id_label":202,
+    "label": "19",
+    "nama": "Jasa kemasyarakatan, pemerintahan, dan perorangan",
+    "id_rincian":57
+},{
+    "id_label":203,
+    "label": "20",
+    "nama": "Pemulung",
+    "id_rincian":57
+},{
+    "id_label":204,
+    "label": "21",
+    "nama": "TKI",
+    "id_rincian":57
+},{
+    "id_label":205,
+    "label": "22",
+    "nama": "Lainnya",
+    "id_rincian":57
+},{
+    "id_label":206,
+    "label": "1",
+    "nama": "Berusaha sendiri",
+    "id_rincian":58
+},{
+    "id_label":207,
+    "label": "2",
+    "nama": "Berusaha dibantu buruh tidak tetap/tidak dibayar",
+    "id_rincian":58
+},{
+    "id_label":208,
+    "label": "3",
+    "nama": "Berusaha dibantu buruh tetap/dibayar",
+    "id_rincian":58
+},{
+    "id_label":209,
+    "label": "4",
+    "nama": "Buruh/karyawan/pegawai swasta",
+    "id_rincian":58
+},{
+    "id_label":210,
+    "label": "5",
+    "nama": "PNS/TNI/Polri/BUMN/BUMD/anggota legislatif",
+    "id_rincian":58
+},{
+    "id_label":211,
+    "label": "6",
+    "nama": "Pekerja bebas pertanian",
+    "id_rincian":58
+},{
+    "id_label":212,
+    "label": "7",
+    "nama": "Pekerja bebas non-pertanian",
+    "id_rincian":58
+},{
+    "id_label":213,
+    "label": "8",
+    "nama": "Pekerja keluarga/tidak dibayar",
+    "id_rincian":58
+},{
+    "id_label":214,
+    "label": "1",
+    "nama": "Islam",
+    "id_rincian":59
+},{
+    "id_label":215,
+    "label": "2",
+    "nama": "Protestan",
+    "id_rincian":59
+},{
+    "id_label":216,
+    "label": "3",
+    "nama": "Katolik",
+    "id_rincian":59
+},{
+    "id_label":217,
+    "label": "4",
+    "nama": "Hindu",
+    "id_rincian":59
+},{
+    "id_label":218,
+    "label": "5",
+    "nama": "Buddha",
+    "id_rincian":59
+},{
+    "id_label":219,
+    "label": "6",
+    "nama": "Konghucu",
+    "id_rincian":59
+},{
+    "id_label":220,
+    "label": "7",
+    "nama": "Lainnya",
+    "id_rincian":59
+},{
+    "id_label":221,
+    "label": "1",
+    "nama": "Minahasa",
+    "id_rincian":60
+},{
+    "id_label":222,
+    "label": "2",
+    "nama": "Bolaang Mongondow",
+    "id_rincian":60
+},{
+    "id_label":223,
+    "label": "3",
+    "nama": "Sangir",
+    "id_rincian":60
+},{
+    "id_label":224,
+    "label": "4",
+    "nama": "Talaud",
+    "id_rincian":60
+},{
+    "id_label":225,
+    "label": "5",
+    "nama": "Siau",
+    "id_rincian":60
+},{
+    "id_label":226,
+    "label": "6",
+    "nama": "Jawa",
+    "id_rincian":60
+},{
+    "id_label":227,
+    "label": "7",
+    "nama": "Arab",
+    "id_rincian":60
+},{
+    "id_label":228,
+    "label": "8",
+    "nama": "China",
+    "id_rincian":60
+},{
+    "id_label":229,
+    "label": "9",
+    "nama": "Ambon",
+    "id_rincian":60
+},{
+    "id_label":230,
+    "label": "10",
+    "nama": "Dayak",
+    "id_rincian":60
+},{
+    "id_label":231,
+    "label": "11",
+    "nama": "Betawi",
+    "id_rincian":60
+},{
+    "id_label":232,
+    "label": "12",
+    "nama": "Bugis",
+    "id_rincian":60
+},{
+    "id_label":232,
+    "label": "13",
+    "nama": "Dayak",
+    "id_rincian":60
+},{
+    "id_label":233,
+    "label": "14",
+    "nama": "India",
+    "id_rincian":60
+},{
+    "id_label":234,
+    "label": "15",
+    "nama": "Madura",
+    "id_rincian":60
+},{
+    "id_label":235,
+    "label": "16",
+    "nama": "Melayu",
+    "id_rincian":60
+},{
+    "id_label":236,
+    "label": "17",
+    "nama": "Minang",
+    "id_rincian":60
+},{
+    "id_label":237,
+    "label": "18",
+    "nama": "Papua",
+    "id_rincian":60
+},{
+    "id_label":238,
+    "label": "19",
+    "nama": "Sunda",
+    "id_rincian":60
+},{
+    "id_label":239,
+    "label": "20",
+    "nama": "Timor",
+    "id_rincian":60
+},{
+    "id_label":240,
+    "label": "21",
+    "nama": "Lainnya",
+    "id_rincian":60
+},{
+    "id_label":241,
+    "label": "1",
+    "nama": "Alamat tempat tinggal dan KTP/KK di dalam desa.",
+    "id_rincian":61
+},{
+    "id_label":242,
+    "label": "2",
+    "nama": "Alamat tempat tinggal di dalam desa tapi KTP/KK di luar desa.",
+    "id_rincian":61
+},{
+    "id_label":243,
+    "label": "3",
+    "nama": "Alamat tempat tinggal diluar desa tapi KTP/KK di dalam desa",
+    "id_rincian":61
+},{
+    "id_label":244,
+    "label": "1",
+    "nama": "Kartu Keluarga Sejahtera (KKS)/ Kartu Perlindungan Sosial (KPS)",
+    "id_rincian":124
+},{
+    "id_label":245,
+    "label": "2",
+    "nama": "Kartu Indonesia Pintar (KIP)/ Bantuan Siswa Miskin (BSM)",
+    "id_rincian":124
+},{
+    "id_label":246,
+    "label": "3",
+    "nama": "Kartu Indonesia Sehat (KIS)/ BPJS Kesehatan /Jamkesmas",
+    "id_rincian":124
+},{
+    "id_label":247,
+    "label": "8",
+    "nama": "Jaminan sosial tenaga kerja (Jamsostek)/ BPJS ketenagakerjaan",
+    "id_rincian":124
+},{
+    "id_label":248,
+    "label": "16",
+    "nama": "Asuransi kesehatan lainnya",
+    "id_rincian":124
+},{
+    "id_label":249,
+    "label": "32",
+    "nama": "Program Keluarga Harapan (PKH)",
+    "id_rincian":124
+},{
+    "id_label":250,
+    "label": "64",
+    "nama": "Bantuan Pangan Non Tunai (BPNT)",
+    "id_rincian":124
+},{
+    "id_label":251,
+    "label": "65",
+    "nama": "Kredit Usaha Rakyat (KUR)",
+    "id_rincian":124
+},{
+    "id_label":252,
+    "label": "66",
+    "nama": "Bukan peserta bansos",
+    "id_rincian":124
+}
+]

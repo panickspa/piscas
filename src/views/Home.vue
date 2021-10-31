@@ -1,18 +1,31 @@
 <template>
-  <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
-  </div>
+  <kuesioner v-if="$store.state.created && $store.state.opened"/>
+  <v-container v-else>
+    <div class="d-flex flex-row">
+      <div class="d-flex flex-column">
+        <h1 class="display-2 font-weight-bold mb-3">
+          Selamat Datang di CAPI Desa Cantik
+        </h1>
+      </div>
+    </div>
+  </v-container>
 </template>
 
 <script>
-// @ is an alias to /src
-import HelloWorld from '@/components/HelloWorld.vue'
-
-export default {
-  name: 'Home',
-  components: {
-    HelloWorld
+import KuesionerVue from './Kuesioner.vue'
+  export default {
+    name: 'Home',
+    components:{
+      'kuesioner': KuesionerVue
+    },
+    methods:{
+      createKuesioner(){
+        if(this.$route.path !== '/kuesioner')
+          this.$router.push('/kuesioner')
+      }
+    },
+    data(){
+      return {} 
+    },
   }
-}
 </script>

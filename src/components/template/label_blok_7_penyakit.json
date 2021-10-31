@@ -1,0 +1,188 @@
+[
+    {
+       "id_label": "311",
+       "label": "0",
+       "nama": "Muntaber",
+       "id_rincian": 114
+    },
+    {
+       "id_label": "312",
+       "label": "1",
+       "nama": "Demam berdarah",
+       "id_rincian": 114
+    },
+    {
+       "id_label": "313",
+       "label": "2",
+       "nama": "Campak",
+       "id_rincian": 114
+    },
+    {
+       "id_label": "314",
+       "label": "3",
+       "nama": "Malaria",
+       "id_rincian": 114
+    },
+    {
+       "id_label": "315",
+       "label": "4",
+       "nama": "Flu burung/SARS",
+       "id_rincian": 114
+    },
+    {
+       "id_label": "316",
+       "label": "5",
+       "nama": "Covid-19",
+       "id_rincian": 114
+    },
+    {
+       "id_label": "317",
+       "label": "6",
+       "nama": "Hepatitis B",
+       "id_rincian": 114
+    },
+    {
+       "id_label": "318",
+       "label": "7",
+       "nama": "Hepatitis E",
+       "id_rincian": 114
+    },
+    {
+       "id_label": "319",
+       "label": "8",
+       "nama": "Difteri",
+       "id_rincian": 114
+    },
+    {
+       "id_label": "320",
+       "label": "9",
+       "nama": "Chikungunya",
+       "id_rincian": 114
+    },
+    {
+       "id_label": "321",
+       "label": "10",
+       "nama": "Leptospirosis",
+       "id_rincian": 114
+    },
+    {
+       "id_label": "322",
+       "label": "11",
+       "nama": "Kolera",
+       "id_rincian": 114
+    },
+    {
+       "id_label": "323",
+       "label": "12",
+       "nama": "Gizi buruk (marasmus dan kwasiorkor)",
+       "id_rincian": 114
+    },
+    {
+       "id_label": "324",
+       "label": "13",
+       "nama": "Jantung",
+       "id_rincian": 114
+    },
+    {
+       "id_label": "325",
+       "label": "14",
+       "nama": "TBC paru-paru",
+       "id_rincian": 114
+    },
+    {
+       "id_label": "326",
+       "label": "15",
+       "nama": "Kanker",
+       "id_rincian": 114
+    },
+    {
+       "id_label": "327",
+       "label": "16",
+       "nama": "Diabetes/kencing manis/ gula",
+       "id_rincian": 114
+    },
+    {
+       "id_label": "328",
+       "label": "17",
+       "nama": "Lumpuh",
+       "id_rincian": 114
+    },
+    {
+       "id_label": "329",
+       "label": "18",
+       "nama": "Lainnya",
+       "id_rincian": 114
+    },
+    {
+       "id_label": "330",
+       "label": "1",
+       "nama": "Rumah sakit",
+       "id_rincian": 115
+    },
+    {
+       "id_label": "331",
+       "label": "2",
+       "nama": "Rumah sakit bersalin",
+       "id_rincian": 115
+    },
+    {
+       "id_label": "332",
+       "label": "3",
+       "nama": "Poliklinik",
+       "id_rincian": 115
+    },
+    {
+       "id_label": "333",
+       "label": "4",
+       "nama": "Puskesmas",
+       "id_rincian": 115
+    },
+    {
+       "id_label": "334",
+       "label": "5",
+       "nama": "Puskesmas pembantu/pustu",
+       "id_rincian": 115
+    },
+    {
+       "id_label": "335",
+       "label": "6",
+       "nama": "Polindes",
+       "id_rincian": 115
+    },
+    {
+       "id_label": "336",
+       "label": "7",
+       "nama": "Poskesdes",
+       "id_rincian": 115
+    },
+    {
+       "id_label": "337",
+       "label": "8",
+       "nama": "Posyandu",
+       "id_rincian": 115
+    },
+    {
+       "id_label": "338",
+       "label": "9",
+       "nama": "Apotik",
+       "id_rincian": 115
+    },
+    {
+       "id_label": "339",
+       "label": "10",
+       "nama": "Toko obat",
+       "id_rincian": 115
+    },
+    {
+       "id_label": "340",
+       "label": "11",
+       "nama": "Rumah sakit",
+       "id_rincian": 115
+    },
+    {
+       "id_label": "341",
+       "label": "12",
+       "nama": "Rumah sakit bersalin",
+       "id_rincian": 115
+    }
+]
