@@ -51,7 +51,10 @@
             dateVal(e){
                 this.$emit('input', e)
             }
-        }
+        },
+        errorCaptured(e){
+            console.log(e)
+        },
     }
 </script>
 

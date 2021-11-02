@@ -94,11 +94,19 @@ export default {
   watch: {
     v(e) {
       if (!this.disabled)
-        this.$emit("input", typeof e == "object" ? e.join(", ") : e);
+        console.log(typeof e)
+        if(e)
+          this.$emit("input", typeof e == "object" ? e.join(", ") : e);
+        else{
+          this.$emit("input", '')
+        }
     },
     value(e) {
       if (!this.disabled) this.v = e;
     },
+  },
+  errorCaptured(e){
+    console.log(e)
   },
 };
 </script>

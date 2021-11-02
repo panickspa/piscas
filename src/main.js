@@ -9,6 +9,7 @@ import 'material-design-icons-iconfont/dist/material-design-icons.css'
 Vue.config.productionTip = false
 document.addEventListener("deviceready", onDeviceReady, false)
 function onDeviceReady(){
+  // https://ourcodeworld.com/articles/read/101/how-to-list-your-cordova-app-in-open-with-menu-in-android-and-handle-the-intent-event
   return new Vue({
     router,
     store,

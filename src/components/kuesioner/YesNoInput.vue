@@ -35,6 +35,9 @@ export default {
       this.$emit("input", e);
     },
   },
+  errorCaptured(e){
+    console.log(e)
+  },
 };
 </script>
 <style>

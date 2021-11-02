@@ -2,7 +2,7 @@
   <div class="label-input">
     <!-- {{labels}} -->
     <v-combobox
-      :items="labels"
+      :items="cLabels"
       hide-details
       outlined
       v-model="v"
@@ -10,14 +10,14 @@
       item-label="label"
       no-data-text="Pilihan Tidak Ada"
       :label="label"
-      v-if="allowOther"
+      v-if="allowOthers"
       :multiple="multiple"
       chips
       :disabled="disabled"
       :return-object="false"
     ></v-combobox>
     <v-autocomplete
-      :items="labels"
+      :items="cLabels"
       hide-details
       outlined
       v-model="v"
@@ -45,6 +45,15 @@ export default {
     "allowOther",
     "disabled",
   ],
+  computed:{
+    allowOthers(){
+      return this.labels.find(e => e.nama == "Lainnya") ? true : false
+    },
+    cLabels(){
+      console.log(this.labels.filter(e => e.name == "Lainnya"))
+      return this.labels.filter(e => e.nama != "Lainnya")
+    }
+  },
   model: {
     prop: "value",
     event: "input",
@@ -90,6 +99,9 @@ export default {
     // value(e) {
     //   console.log("label change", e);
     // },
+  },
+  errorCaptured(e){
+    console.log(e)
   },
 };
 </script>

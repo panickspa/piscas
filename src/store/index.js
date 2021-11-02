@@ -5,7 +5,7 @@ Vue.use(Vuex)
 
 export default new Vuex.Store({
   state: {
-    snackTimeout: 750,
+    snackTimeout: 1500,
     created: false,
     opened: false,
     kuesioner: {
@@ -657,19 +657,19 @@ export default new Vuex.Store({
                 "nomor": "5",
                 "nama": "Rumah berada di bawah SUTET/SUTT/SUTTAS",
                 "isi":{},
-                "tipe_data":"int"
+                "tipe_data":"y/n"
             },{
                 "id_rincian": 98,
                 "nomor": "6",
                 "nama": "Rumah di bantaran sungai",
                 "isi":{},
-                "tipe_data":"int"
+                "tipe_data":"y/n"
             },{
                 "id_rincian": 99,
                 "nomor": "7",
                 "nama": "Rumah di lereng Bukit/Gunung",
                 "isi":{},
-                "tipe_data":"int"
+                "tipe_data":"y/n"
             },{
                 "id_rincian": 100,
                 "nomor": "8",
@@ -2653,6 +2653,9 @@ export default new Vuex.Store({
         state.kuesioner = e
         state.created = true
         state.opened = true
+      },
+      setOpen(state, e){
+        state.opened = e
       },
       updateIsi(state, e){
         if(state[e.blok]){

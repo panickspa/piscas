@@ -7,6 +7,7 @@
                     <h4>Sumber Penghasilan</h4>
                 </v-card-title>
                 <div class="d-flex flex-column">
+                    <h5 v-if="$store.state.kuesioner.blok_4.isi.length < 1" class="text-center">Belum ada ART yang ditambahkan Pada Blok 4</h5>
                     <v-list dense>
                         <v-list dense>
                             <v-list-item
@@ -87,6 +88,9 @@ import DialogRincianEditTurunanVue from './DialogRincianEditTurunan.vue'
                 selectedItem: null,
                 selectedIsi: null
             }
+        },
+        errorCaptured(e){
+            console.log(e)
         }
     }
 </script>

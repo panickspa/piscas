@@ -44,7 +44,7 @@ import RincianVue from './kuesioner/Rincian.vue'
             }
         },
         errorCaptured(e){
-            this.err = e
+            console.log(e)
         },
     }
 </script>

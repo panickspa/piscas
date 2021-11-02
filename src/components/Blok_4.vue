@@ -13,6 +13,7 @@
                     </d-rincian-add>
                 </div>
                 <div class="d-flex flex-column">
+                    <h5 v-if="$store.state.kuesioner.blok_4.isi.length < 1" class="text-center">Belum ada ART yang ditambahkan</h5>
                     <v-list dense>
                         <v-list dense>
                             <v-list-item
@@ -104,6 +105,9 @@ import DialogRincianEditVue from './DialogRincianEdit.vue'
                 selectedItem: null,
                 selectedIsi: null
             }
+        },
+        errorCaptured(e){
+            console.log(e)
         }
     }
 </script>

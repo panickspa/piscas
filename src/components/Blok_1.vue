@@ -50,12 +50,13 @@ import RincianVue from './kuesioner/Rincian.vue'
         },
         errorCaptured(e){
             this.err = e
+            console.log(e)
         },
         watch:{
             "$store.state.kuesioner": function(e){
                 this.blok = e.blok_1
             }
-        }
+        },
     }
 </script>
 

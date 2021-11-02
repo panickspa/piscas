@@ -50,7 +50,7 @@ import RincianVue from './kuesioner/Rincian.vue'
             }
         },
         errorCaptured(e){
-            this.err = e
+            console.log(e)
         },
         watch:{
             "$store.state.kuesioner": function(e){

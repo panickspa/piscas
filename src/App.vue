@@ -20,35 +20,25 @@
                 </v-btn>
             </template>
             <v-list>
-                <v-list-item>
-                    <v-btn
-                        @click="createKuesioner()"
-                        text>
+                <v-list-item  @click="createKuesioner()">
+                    <v-list-item-content>
                         Baru
-                    </v-btn>
+                    </v-list-item-content>
                 </v-list-item>
-                <v-list-item>
-                    <v-btn
-                        @click="openKuesioner()"
-                        text>          
+                <v-list-item  @click="openKuesioner()">
+                    <v-list-item-content>
                         Buka
-                    </v-btn>
-                </v-list-item>
-                <v-list-item>
-                    <v-btn
-                        :disabled="!created"
-                        @click="createKuesioner()"
-                        text>
+                    </v-list-item-content>
+                    </v-list-item>
+                <v-list-item :disabled="!$store.state.created" v-if="!$store.state.opened" @click="setOpen(true)">
+                    <v-list-item-content>
                         Lanjutkan
-                    </v-btn>
+                    </v-list-item-content>
                 </v-list-item>
-                <v-list-item>
-                    <v-btn
-                        :disabled="!$store.state.created"
-                        text
-                        @click="openSaveDialog()">
+                <v-list-item :disabled="!$store.state.created" @click="openSaveDialog()">
+                    <v-list-item-content>
                         Simpan
-                    </v-btn>
+                    </v-list-item-content>
                 </v-list-item>
             </v-list>
         </v-menu>
@@ -87,12 +77,42 @@
     >
         Kuesioner : {{fileName}}.json tersimpan di Unduhan
     </v-snackbar>
+    <v-snackbar
+        v-model="fileError"
+        :timeout="$store.state.snackTimeout"
+    >
+        Terdapat kesalahan saat memuat file
+    </v-snackbar>
   </v-app>
 </template>
 
 <script>
 export default {
   name: 'App',
+  beforeCreate(){
+    var HandleIntent = function (Intent) {
+        console.log(Intent)
+        // With intent you'll do almost everything        
+        // eslint-disable-next-line no-prototype-builtins
+        if(Intent.hasOwnProperty('data')){
+        // Do something with the File
+            // return Intent
+        }else{
+            // return null
+        }
+    };
+    // Handle the intent when the app is open
+    // If the app is running in the background, this function
+    // will handle the opened file
+    window.plugins.intent.setNewIntentHandler(HandleIntent);
+
+    // Handle the intent when the app is not open
+    // This will be executed only when the app starts or wasn't active
+    // in the background
+    window.plugins.intent.getCordovaIntent(HandleIntent, function () {
+
+    });
+  },
   methods: {
     onDeviceReady(){
       // eslint-disable-next-line no-undef
@@ -101,13 +121,30 @@ export default {
     setCreated (e) {
         this.$store.state.commit('setKuesioner', e)
     },
+    setOpen(e){
+        this.$store.state.commit('setOpen', e)
+    },
     createKuesioner(){
       this.$store.commit('setKuesioner', this.kuesioner)
+    },
+    initDir(){
+        window.resolveLocalFileSystemURL(`${this.donwloadPath}/kuesioner_capi/`, this.checkExistingDir, this.createKuesDir);
+    },
+    // eslint-disable-next-line no-unused-vars
+    createKuesDir(e){
+        window.resolveLocalFileSystemURL(this.donwloadPath, this.createDir, this.failInit)
+    },
+    createDir(file){
+        file.getDirectory('kuesioner_capi', {create: true}, this.checkExistingDir, this.failInit)
+    },
+    // eslint-disable-next-line no-unused-vars
+    checkExistingDir(file){
+        this.dirCreated = true
     },
     openKuesioner(){
       // eslint-disable-next-line no-undef
       fileChooser.open(
-        {"mime" : "application/json, .json"},
+        {"mediaType" : "*/*"},
         this.successChoose,
         this.failChoose
       )
@@ -128,7 +165,7 @@ export default {
         file.createWriter(this.fileWriterKuesioner)
     },
     fileWriterKuesioner(fileWriter){
-        var blob = new Blob([JSON.stringify(this.$store.state.kuesioner)], {type:'text/plain', mime: 'application/json'});
+        var blob = new Blob([JSON.stringify(this.$store.state.kuesioner)], {type:'application/json'});
         fileWriter.write(blob);
         fileWriter.onerror = this.fail
         fileWriter.onwriteend = this.success
@@ -138,23 +175,31 @@ export default {
     },
     // eslint-disable-next-line no-unused-vars
     fileExist(e){
-        this.fileSaveDialog = true
+        this.fileExistDialog = true
     },
     fail(e) {
         console.log(e)
         this.err = e
+        this.fileError = true
     },
     failChoose(e){
         console.log(e)
         this.err = e
+        this.fileError = true
     },
     failResolvePath(e){
         console.log(e)
         this.err = e
+        this.fileError = true
     },
     failRead(e){
       console.log(e)
       this.err = e
+      this.fileError = true
+    },
+    failInit(e){
+       console.log(e)
+       this.err = e
     },
     readFile(e){
       let fileFormat = e.substr(e.length - 5);
@@ -182,7 +227,12 @@ export default {
     },
     success(){
       this.fileSaveDialog = false
+      this.fileExistDialog = false
+      this.saveSnack = true
     }
+  },
+  mounted(){
+    this.initDir();
   },
   data: () => ({
     deviceReady: false,
@@ -197,6 +247,8 @@ export default {
     logOb: null,
     created: false,
     saveSnack: false,
+    fileError: false,
+    dirCreated: false,
     kuesioner: {
         blok_1: {
             "id_blok": 0,
